@@ -1,0 +1,285 @@
+body {
+    line-height: 1.5;
+    margin: 50px;
+    border: 0;
+
+}
+
+.feather {
+    background-color: lightslategrey;
+    background-image: url(../img/feather.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+}
+
+header {
+    background-color: lightslategrey;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-height: auto;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 3em;
+    color: white;
+    position: relative;
+    align-content:  left;
+    padding-left: 30px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    color: #e6d7b5;
+    padding: 30px;
+    position: relative;
+    align-content: left;
+
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    color: #888;
+    padding: 8px;
+    position: relative;
+    left: 10%;
+    align-content: left;
+
+}
+
+.navigation {
+
+    color: #888;
+    border-bottom: 1px;
+     
+    
+}
+
+nav ul {
+    margin: 0px;
+   
+
+}
+
+nav ul li {
+    display: inline-block;
+    align-content: center;
+    padding-left: 20px;
+   
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    padding: 2.1rem;
+    color: #444;
+    
+    
+
+
+}
+
+.nav a:hover {
+    background-color: #e6d7b5;
+    
+}
+
+.nav a.active {
+    background-color: #fff;
+    color: lightsteelblue;
+    cursor: default;
+    
+}
+
+
+button {
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: lightsteelblue;
+    color: white;
+
+
+}
+
+button:hover {
+    background-color: #DDD;
+    color: #888;
+
+}
+
+.wrapper {
+    text-align: center;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    float: left;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    color: steelblue;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    color: #888;
+    left: 10%;
+
+}
+
+
+article {
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    color: #888;
+    line-height: 1.5em;
+   padding-bottom: 80px;
+    max-height: 20rem;
+}
+
+footer {
+    clear: both;
+    background-color: lightslategrey;
+    background-size: 100%;
+    height: 150px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.em;
+    color: #888;
+    line-height: 1.6em;
+    padding: 40px;
+
+
+}
+
+footer ul li {
+
+    display: inline-block;
+
+
+}
+
+footer ul {
+    list-style: none;
+}
+
+
+
+.fa {
+    display: inline-block;
+    padding: 20px;
+
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+
+
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    display: inline;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-google {
+    background: steelblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    left: 10%;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    color: #e6d7b5;
+
+}
+
+@media only screen and (min-device-width: 30rem)
+
+{
+    
+    }
+
+    h2 {
+        font-size: 0.75rem;
+    }
+    
+    
+    }
+    footer {
+        position: fixed;
+    }
+
+
+    h4 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 1em;
+        color: #e6d7b5;
+
+    }
+    body {
+        line-height: 1.4;
+        margin: 30px;
+        border: 0;
+        padding-bottom: 20px;
+
+    }
+
+
+}
+
+
+@media only screen and (min-width: 60rem) {
+
+    h2 {
+        font-size: 1rem;
+
+    }
+    footer {
+        position: relative;
+    }
+
+}
